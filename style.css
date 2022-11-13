@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+
+body {
+    width: 550px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 550px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #F55A5A;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+}
+
+main {
+}
+.card-container {
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card-image {
+    object-fit: cover;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-info {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.location-row {
+    display: flex;
+    align-items: center;
+}
+.location {
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+margin-right: 10px;
+}
+
+.google {
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.card-title {
+margin-top:5px; 
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+}
+
+.card-date {
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+}
+
+.card-description {
+margin-top: 10px;
+width: 326px;
+font-size: 10.24px;
+line-height: 150%;
+color: #2B283A;
+}
